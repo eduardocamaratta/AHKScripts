@@ -15,4 +15,5 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 Rshift::/
 Lshift & Rshift::Send {?}
 RAlt & Rshift::Send {°}
+RAlt & E::Send {€}
 return
