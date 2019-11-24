@@ -1,4 +1,4 @@
-﻿; An AutoHotKey Script that maps the infamous 112h key of the ABNT2 keyboard layout to the Right Shift
+﻿; An AutoHotKey Script that maps the Slash/Interrogation/Degree key of the ABNT2 keyboard layout to the Right Shift
 
 ; To make the script start with Windows:
 ; Win + R
