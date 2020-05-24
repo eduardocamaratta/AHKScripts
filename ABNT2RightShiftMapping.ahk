@@ -16,4 +16,9 @@ Rshift::/
 Lshift & Rshift::Send {?}
 RAlt & Rshift::Send {°}
 RAlt & E::Send {€}
+
+; Override default maximize shortcut, resizing the window with a height one pixel shorter,
+; otherwise the taskbar is not always shown (when it's configured to automatically hide).
+#Up::WinMove, A,, 0, 0, A_ScreenWidth, A_ScreenHeight - 1
+
 return
