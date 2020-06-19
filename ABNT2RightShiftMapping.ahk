@@ -33,7 +33,7 @@ RAlt & E::Send {€}
 ; to avoid hiding the Taskbar
 #Up::
 WinGetTitle, title, A
-if title in Telegram,Steam
+if (title in Telegram,Steam,Geforce Experience,Epic Games Launcher) or InStr(title, "GOG Galaxy")
 {
     specs := GetCurrentMonitorSpecs()
     WinMove, A,, specs.left, specs.top, specs.width, specs.height - 1
