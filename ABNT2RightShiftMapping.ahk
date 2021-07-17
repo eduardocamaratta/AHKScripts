@@ -29,6 +29,16 @@ Lshift & Rshift::Send {?}
 RAlt & Rshift::Send {°}
 RAlt & E::Send {€}
 
+; Deutsch
+!A::Send {ä} ; ae, a + Umlaut
+!O::Send {ö} ; oe, o + Umlaut
+!U::Send {ü} ; ue, u + Umlaut
+!S::Send {ß} ; Eszett
++!A::Send {Ä} ; AE, A + Umlaut
++!O::Send {Ö} ; OE, O + Umlaut
++!U::Send {Ü} ; UE, U + Umlaut
++!S::Send {ẞ} ; Große Eszett
+
 ; Default windows shortcut to maximize. However, it resizes to height - 1 for some windows instead of maximizing,
 ; to avoid hiding the Taskbar
 #Up::
